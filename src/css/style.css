@@ -1,4 +1,27 @@
-.top-hd {
+body {
+  background-color: #3A3839; }
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 100%; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2F2F2F;
   width: 100%;
-  height: 12px;
+  height: 3rem;
+  color: aliceblue;
+  text-align: center; }
+  nav .main, nav .dongtai, nav .my {
+    width: 30%; }
+
+i {
+  font-size: 20px !important; }
+
+.content {
+  width: 100px;
+  height: 100px;
   background-color: red; }
