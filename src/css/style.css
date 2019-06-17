@@ -1,27 +1,70 @@
 body {
-  background-color: #3A3839; }
+  background-color: #3A3839;
+  color: aliceblue;
+  letter-spacing: 3px; }
+
+.hd-warp {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(47, 47, 47, 0.9);
+  display: flex;
+  line-height: 40px;
+  justify-content: center;
+  align-content: center; }
+  .hd-warp .title {
+    font-size: 17px !important; }
+  .hd-warp .msg {
+    position: absolute;
+    right: 20px; }
+
+.content {
+  height: 550px;
+  overflow: auto; }
+  .content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  .content li {
+    width: 95%;
+    margin: 15px;
+    border-radius: 12px;
+    background-color: rgba(238, 238, 238, 0.2);
+    height: 195px;
+    position: relative; }
+    .content li .bumen {
+      font-size: 14px !important;
+      padding-left: 10px;
+      padding-bottom: 5px; }
+    .content li .res-btn {
+      position: absolute;
+      right: 10px;
+      padding: 1px 20px;
+      border-radius: 12px;
+      background-color: #ffc340;
+      font-size: 16px; }
+  .content img {
+    width: 95%;
+    border-radius: 12px;
+    margin: 8px 8px;
+    height: 150px; }
 
 .container {
   display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  height: 100%; }
+  flex-wrap: wrap; }
 
 nav {
   display: flex;
+  position: absolute;
+  bottom: 0;
   justify-content: space-around;
-  background-color: #2F2F2F;
+  align-items: center;
+  background-color: rgba(47, 47, 47, 0.9);
   width: 100%;
-  height: 3rem;
-  color: aliceblue;
+  height: 50px;
   text-align: center; }
   nav .main, nav .dongtai, nav .my {
     width: 30%; }
 
 i {
   font-size: 20px !important; }
-
-.content {
-  width: 100px;
-  height: 100px;
-  background-color: red; }
